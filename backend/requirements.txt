@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pypdf
+faiss-cpu
+python-dotenv
+# Core LangChain
+langchain
+# NEW: Google Generative AI integration
+langchain-google-genai 
+google-generativeai
+langchain-community
