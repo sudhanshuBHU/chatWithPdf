@@ -79,18 +79,30 @@ git clone https://github.com/sudhanshuBHU/chatWithPdf.git
     cd backend
     ```
 
-2. **Install Python dependencies:**
+2. **(Recommended) Create and activate a virtual environment:**
+    - On **Windows**:
+      ```bash
+      python -m venv venv
+      venv\Scripts\activate
+      ```
+    - On **macOS/Linux**:
+      ```bash
+      python3 -m venv venv
+      source venv/bin/activate
+      ```
+
+3. **Install Python dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Configure environment variables:**
+4. **Configure environment variables:**
     - Copy `.env.example` to `.env` and add your Google API key:
       ```
       GOOGLE_API_KEY=your_google_api_key_here
       ```
 
-4. **Run the backend server:**
+5. **Run the backend server:**
     ```bash
     uvicorn app.main:app --reload
     ```
