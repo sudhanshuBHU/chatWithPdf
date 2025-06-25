@@ -30,6 +30,7 @@ This repository contains a full-stack application for PDF Question & Answering u
 ---
 
 ## Project Structure
+```
 assignmentAIPlanet/ 
 ├── backend/ 
 │   ├── app/ 
@@ -53,6 +54,7 @@ assignmentAIPlanet/
 │   ├── vite.config.js 
 │   └── README.md 
 └── README.md
+```
 
 ---
 
@@ -67,6 +69,10 @@ assignmentAIPlanet/
 ## Setup Instructions
 
 ### Backend Setup
+
+```bash
+git clone https://github.com/sudhanshuBHU/chatWithPdf.git
+```
 
 1. **Navigate to the backend folder:**
     ```bash
