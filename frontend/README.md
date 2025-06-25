@@ -11,7 +11,7 @@ This project is the frontend for the Assignment AIPlanet application.
 
 1. **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/sudhanshuBHU/chatWithPdf.git
     cd frontend
     ```
 

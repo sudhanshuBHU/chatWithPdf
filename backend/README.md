@@ -34,7 +34,7 @@ This is the backend service for the Assignment AI Planet project. It provides RE
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/assignmentAIPlanet-backend.git
+git clone https://github.com/sudhanshuBHU/chatWithPdf.git
 cd assignmentAIPlanet-backend
 pip install -r requirements.txt
 ```
